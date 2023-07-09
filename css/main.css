@@ -1,0 +1,539 @@
+
+.navbar-toggler {
+   border: none 
+}
+
+.navbar{
+    color: white;
+}
+
+li .color-link{
+    color: white;
+}
+
+li .color-link:hover{
+    background-color: #6BDD1B;
+    color: white;
+    text-decoration:underline
+} 
+
+ .logo-notion {
+   width: 100px;
+ }
+
+ .container-fluid{
+    background-color: black;
+ }
+
+/*ëstilos de home*/
+ /* estilos de main clase contenedor */
+
+ main .contenedor {
+
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 30%);
+    gap: 0.5rem;
+    margin: 4rem, 2rem, 4rem, 2rem;
+ }
+
+ main .contenedor .img-dos, .img-cinco{
+display: none;
+ }
+ main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+/*estilos de footer*/
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/*estilos de section*/
+
+ section {
+
+    color: white;
+    display: grid;
+    padding: 2rem;
+    text-decoration:overline;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+   
+ }
+
+/*mq de mobile*/
+@media screen  and (max-width: 800px) {
+
+    body{
+        background-color: black ; }
+
+/*estilos de catalogo*/
+    .catalogo-img .catg-img { 
+        
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0.5rem;
+    width: 100%;
+    margin: auto;
+    padding: 20px;}
+
+
+    /*estilos de servicios mobile */
+    .main-servi{
+    
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: repeat(4, 20);
+        gap: 3rem;
+        align-items: center;
+    }   
+    
+    .img-serv {
+        width: 200px;
+        height: 200px;
+        margin-left: 20%;
+        border-radius: 20%;
+    }
+    main p{
+        color: white;
+        margin: auto;
+        align-items: center;
+    }
+    /*estilos de modalidad mobile*/
+    .main-mod {
+        
+        display: grid;
+        grid-template-columns: 1;
+        margin: 4rem, 2rem, 4rem, 2rem;
+        justify-content: center;
+        
+    }
+    .explicacion {
+        text-align: justify;
+        text-align: center;
+        color: white;
+        width: 100%;
+        height: 100%;
+    }
+   .mod-link{
+    text-align: center;
+    margin: 8px 0 0 0;
+    color: white;
+   }
+   .p-mod{
+    text-align: center;
+    margin-top: 3px;
+    padding: 3rem 4rem 0 4rem;
+    width: 500px;
+    
+   
+   }
+   .vid-mod{
+    align-items: center;
+    margin: 0 4rem 4rem 4rem;
+    padding: 1rem  4rem 0 4rem;
+  
+   }
+/*estilos de Contacto */
+
+.style-contact {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-columns: ;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    gap: 2rem;
+}
+
+.p-contacto {
+text-align: center;
+width: 300px;
+min-height: 200px;
+font-size: 20px;
+
+
+}
+form{
+ 
+    color: white;
+    text-align: center;
+    font-size: small;
+  
+}
+.botton{
+ background-color: blue;
+ color: white;
+
+ 
+}
+.botton-red{
+    background-color: red;
+    color: white;
+}
+.img-contac {
+     
+    display: none;
+
+}
+.img-contac-1{
+
+    display: none;
+
+}
+label {
+    background-color: black;
+    color: white;
+}
+input {
+    background-color: black;
+    color: white;
+}
+      
+}
+
+/*mq de tablet*/
+@media screen  and (min-width: 800px) {
+    body{
+    background-color: rgb(0, 0, 0) ;}
+
+    .catalogo-img {
+
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px;
+    grid-gap: 3px;
+    margin: auto;
+    width: 90%;
+}
+main .contenedor {
+    height: 200vh;
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(3, 20 %);
+}
+
+main .contenedor .img-dos {
+    display: block;
+
+
+}
+/*estilos de servicios tablet*/
+.main-servi{
+    
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(4, 20);
+    gap: 3rem;
+    align-items: center;
+}   
+
+.img-serv {
+    width: 400px;
+    height: 400px;
+    margin-left: 20%;
+    border-radius: 20%;
+}
+main p{
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+
+/*estilos de modalidad tablet*/
+.main-mod {
+    
+    display: grid;
+    grid-template-columns: 1;
+    margin: 4rem, 2rem, 4rem, 2rem;
+    justify-content: center;
+    
+}
+.explicacion {
+    text-align: justify;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.mod-link{
+text-align: center;
+margin: 8px 0 0 0;
+color : white;
+}
+.p-mod{
+text-align: center;
+margin-top: 1px;
+padding: 1rem;
+width: 700px;}
+
+
+.vid-mod{
+align-items: center;
+margin: 0 4rem 4rem 4rem;
+padding: 1rem  4rem 0 4rem;
+
+}
+
+/*estilos de Contacto tablettt*/
+
+.style-contact {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-columns: ;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.p-contacto {
+text-align: center;
+width: 300px;
+min-height: 200px;
+font-size: 20px;
+
+
+}
+form{
+ 
+    color: white;
+    text-align: center;
+    font-size: small;
+  
+}
+.botton{
+ background-color: blue;
+ color: white;
+ 
+}
+.botton-red{
+    background-color: red;
+    color: white;
+}
+.img-contac {
+    width: 300px;
+    height:300px ;
+    margin-left: 33%;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    display: grid;
+    border-radius: 20%;
+
+}
+.img-contac-1{
+
+    display: none;
+
+}
+label {
+    background-color: black;
+    color: white;
+}
+input {
+    background-color: black;
+    color: white;
+}
+}
+    
+
+/*mq de desktop */
+@media screen and (min-width: 1024px) {
+    body {
+      
+        background-color: black;
+    }
+main .contenedor .img-dos, .img-cinco {
+    display: block;
+}
+.contenedor {
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35% 35% 30%;
+    margin: auto;
+}
+
+main .contenedor .img-uno, .img-tres{
+    grid-row: span 2;       
+    
+}
+main .contenedor .img-cuatro{
+    grid-column: span 1;
+    
+}
+main .contenedor .img-cinco{
+    grid-column: span 3;
+
+}
+
+/*estilos de catalogo laptop*/
+
+ .catalogo-img  {
+
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px;
+    grid-gap: 7px;
+}
+.catalogo-img .catg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.catalogo-img :nth-child(2){
+    grid-column-start: span 2;
+}
+.catalogo-img :nth-child(9){
+    grid-row-start: span 3;
+
+}
+/*estilos de servicios laptop*/
+.main-servi{
+    
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3rem;
+}   
+
+.img-serv {
+    width: 400px;
+    height: 400px;
+    margin-left: 7rem;
+}
+main p{
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+/*estilos de modalidad laptop */
+
+.explicacion {
+    text-align: justify;
+    text-align: center;
+}
+
+/*estilos de modalidad laptop*/
+
+.main-mod {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    margin: 4rem, 2rem, 4rem, 2rem;
+    justify-content: center;
+    
+}
+.explicacion {
+    text-align: justify;
+    text-align: center;
+    color: white;
+    height: 100%;
+    margin: 2rem 0 0 0
+}
+.mod-link{
+text-align: center;
+margin: 10rem 0 0 0;
+color: white;
+
+padding: 20px;
+}
+.p-mod{
+
+text-align: center;
+width: 100%;
+font-size: 20px;
+margin-top: 4rem;
+
+}
+
+.vid-mod{
+   
+ 
+    margin: 5rem 0 0 0;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+}
+
+
+/*estilos de Contacto laptop*/
+
+.style-contact {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: ;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.p-contacto {
+text-align: center;
+width: 300px;
+min-height: 200px;
+font-size: 20px;
+
+
+}
+form{
+ 
+    color: white;
+    text-align: center;
+    font-size: small;
+   
+}
+.botton{
+ background-color: blue;
+ color: white;
+ 
+}
+.botton-red{
+    background-color: red;
+    color: white;
+}
+.img-contac {
+    width: 300px;
+    height:300px ;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    display: grid;
+    border-radius: 20%;
+
+}
+.img-contac-1{
+    width: 300px;
+    height:300px ;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    display: grid;
+    border-radius: 20%;
+
+}
+label {
+    background-color: black;
+    color: white;
+}
+input {
+    background-color: black;
+    color: white;
+}
+}
